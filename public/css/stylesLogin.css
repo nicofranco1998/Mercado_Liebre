@@ -1,0 +1,60 @@
+main.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+main form div.control-form {
+  justify-content: center;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+main form div.control-form label {
+  margin-bottom: 5px;
+  font-style: italic;
+  display: block;
+}
+
+input.control {
+  width: 100%;
+  padding: 8px 8px;
+}
+
+main form div button.submit {
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+main {
+  height: 40vh;
+}
+
+main.login form input.control:invalid {
+  border: 1p solid red;
+}
+
+main.login form.create-form {
+  width: 100%;
+}
+
+main.login form.create-form button.submit {
+  background-color: #0044aa;
+  border: 1x solid #000;
+  color: #fff;
+  width: 100%;
+  transition: background-color 450ms;
+}
+
+main.login form.create-form button.submit:hover {
+  background-color: #0022aa;
+}
+
+@media (min-width: 1200px) {
+  main {
+    width: 50vw;
+    height: 60vh;
+  }
+}

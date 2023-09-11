@@ -1,0 +1,91 @@
+.create-form {
+  padding: 20px 15px;
+}
+
+.control-form {
+  margin-bottom: 15px;
+}
+
+.control {
+  width: 100%;
+  padding: 8px 8px;
+}
+
+.control-form label {
+  margin-bottom: 5px;
+  font-style: italic;
+  display: block;
+}
+
+main {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+main form div.control-form div.checkbox div {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+main form div.offers div {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+main form div.avatar input.control {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+main.register form.create-form div.botones {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+main.register form.create-form button.submit-register {
+  background-color: #0044aa;
+  color: #fff;
+  width: 49%;
+  margin: 10px;
+  transition: background-color 450ms;
+}
+
+main.register form.create-form button.submit-register:hover {
+  background-color: #0022aa;
+}
+
+main form div.offers {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+main form.create-form div.buttons {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+main form.create-form div.buttons button {
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+@media (min-width: 769px) {
+  main {
+    width: 80vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    width: 55vw;
+  }
+
+  main form div.control-form div.checkbox {
+    display: flex;
+    justify-content: space-around;
+  }
+}
